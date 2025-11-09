@@ -1,0 +1,59 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.drop-area {
+    width: 20rem;
+    height: 30rem;
+    border: 0.1rem dashed black;
+}
+
+#data-list, .drop-area[data-category="fruits"], .drop-area[data-category="vegetables"] {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#data-list>li, .drop-area[data-category="fruits"]>li, .drop-area[data-category="vegetables"]>li {
+    min-width: 10rem;
+    color: white;
+    margin: 0.3rem 0.3rem;
+    padding: 0.3rem 0.3rem;
+    text-align: center;
+    cursor: grab;
+}
+
+#data-list>li {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.correct {
+    background-color: lightskyblue;
+}
+
+.draggable-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 10rem;
+}
+
+.drag-over {
+    border: 0.2rem solid lightgreen;
+}
+
+.drop-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.result-container {
+    margin: 2rem 1rem;
+}

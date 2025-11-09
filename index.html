@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identify fruits and vegetables</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2>Identify fruits and vegetables</h2>
+    </header>
+    <main>
+        <div class="container">
+            <div class="draggable-container">
+                <div>Data: </div>
+                <ul id="data-list"></ul>
+            </div>
+            <div class="drop-container">
+                <div>
+                    <div>Fruits</div>
+                    <ul class="drop-area" data-category="fruits"></ul>
+                </div>
+                <div>
+                    <div>Vegetables</div>
+                    <ul class="drop-area" data-category="vegetables"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="result-container">
+            Result: <span id="result"></span>
+        </div>
+    </main>
+</body>
+</html>
