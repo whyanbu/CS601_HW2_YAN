@@ -16,7 +16,13 @@ https://cs601projectapi.vercel.app/get
 
 
 ### Installation
+Clone the repository:
+
+bash  
+git clone https://github.com/whyanbu/CS601_HW2_YAN.git  
+cd CS602_HW1_YAN  
 Open index.html directly in your web browser.  
+
 No build or dependencies needed.  
 
 ### Usage
