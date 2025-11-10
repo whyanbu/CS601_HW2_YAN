@@ -9,9 +9,9 @@ Project Structure
 
 ### Features
 Written with vanilla JavaScript without CSS frameworks.  
-JSON file is hosted in github page: https://whyanbu.github.io/CS601_Project/public/cs601-assignment2-data.json  
+JSON file is hosted in github page: https://whyanbu.github.io/files/cs601-assignment2-data.json  
 
-Alternatively, similar data is stored in Firebase, and an Express.js API, deployed on Vercel, exposes the data as a JSON return via an HTTP GET endpoint:  
+Similar data is also stored in Firebase, and an Express.js API deployed on Vercel exposes the data as a JSON return via an HTTP GET endpoint as a second data source:  
 https://cs601projectapi.vercel.app/get  
 
 

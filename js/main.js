@@ -2,7 +2,7 @@ const dataList = document.getElementById("data-list");
 const dropAreas = document.querySelectorAll(".drop-area");
 const result = document.getElementById("result");
 
-const url = "https://whyanbu.github.io/CS601_Project/public/cs601-assignment2-data.json";
+const url = "https://whyanbu.github.io/files/cs601-assignment2-data.json";
 // const url = "https://cs601projectapi.vercel.app/get";
 
 const fetchData = async () => {
